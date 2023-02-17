@@ -9,6 +9,3 @@ const galeryImg = ({ preview, original, description }) =>
 const galleryEls = galleryItems.map(galeryImg).join('');
 galleryEl.insertAdjacentHTML('afterbegin', galleryEls);
 let gallery = new SimpleLightbox('.gallery a');
-gallery.on('show.simplelightbox', function () {
-  // do something…
-});

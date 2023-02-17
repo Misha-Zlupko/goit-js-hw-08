@@ -38,5 +38,5 @@ function handleFormCange({ target }) {
 }
 
 contactFormEl.addEventListener('submit', onFormSubmit);
-contactFormEl.addEventListener('change', handleFormCange);
+contactFormEl.addEventListener('input', handleFormCange);
 fillFormFiles(contactFormEl);
